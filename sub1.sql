@@ -3,7 +3,7 @@ WITH january_jobs AS (
     FROM job_postings_fact
     WHERE EXTRACT(MONTH FROM job_posted_date) =1
 )
-SELECT *
+SELECT **
 FROM january_jobs
 
 
